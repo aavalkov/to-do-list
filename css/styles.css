@@ -1,0 +1,17 @@
+.clickItem {
+  color: #0088cc;
+  cursor: alias;
+}
+
+.clickItem:hover{
+  text-decoration: underline;
+}
+
+.col-md-5 {
+  display:none;
+}
+
+.finishedItem {
+  text-decoration:line-through;
+  color:#d3d3d3;
+}
