@@ -14,10 +14,17 @@ $(document).ready(function() {
 
     $("ul#list").children("li").last().click(function() {
       $(".col-md-5").show();
+      $("h2#done-header").show();
       $("ul#done").append("<li><span class = 'finishedItem'>" +
                             inputtedItemDate.item + " " +
                             inputtedItemDate.date + "</span></li>");
       $(this).remove();
+    });
+
+    $("button#clear").click(function(){
+      $("ul#list").empty();
+      $("ul#done").empty();
+      $("h2#done-header").hide();
 
     });
   });
