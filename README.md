@@ -1,4 +1,4 @@
-This is our to do list.
+This simple todo list app allows users to enter a task and due date and make items as completed. 
 
-Enter a task and a date, and it shows in the list.
-Click on the task and it will put it in the "completed" list.
+To set it up, clone the repository and open up the index.html file
+
